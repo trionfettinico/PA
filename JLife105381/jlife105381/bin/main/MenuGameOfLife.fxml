@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="288.0" prefWidth="417.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="102.0" layoutY="32.0" text="Game Of Life">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnInsertGame" layoutX="156.0" layoutY="99.0" mnemonicParsing="false" onAction="#insertGame" text="inserisci partita" />
+      <Button fx:id="btnLoadGame" layoutX="165.0" layoutY="138.0" mnemonicParsing="false" onAction="#loadGame" text="avvia partita" />
+      <Button fx:id="btnUpdateGame" layoutX="156.0" layoutY="182.0" mnemonicParsing="false" onAction="#updateGame" text="modifca partita" />
+      <Button fx:id="btnRemoveGame" layoutX="157.0" layoutY="227.0" mnemonicParsing="false" onAction="#removeGame" text="rimuovi partita" />
+   </children>
+</Pane>
